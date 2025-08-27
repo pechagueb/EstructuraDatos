@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Listas {
     public static void main(String[] args) {
@@ -29,6 +30,11 @@ public class Listas {
         // Buscar un valor en la lista
         boolean contiene = lista.contains("Platano");
 
+        System.out.println("¿Lista contiene 'Plátano'? " + ((contiene)?"Si":"No") );
+
+        // Ordenar lista
+        Collections.sort(lista);
+        System.out.println("Lista ordenada: " + lista );
 
 
     }
